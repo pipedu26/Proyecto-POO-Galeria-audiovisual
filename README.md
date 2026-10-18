@@ -8,8 +8,8 @@ Este proyecto es un sistema de administración desarrollado en C++ para una orga
 | Nombre completo| Código | Correo instituciona | Usuario de GitHub |
 | --- | --- | --- | --- |
 | Juan Felipe Duran Chaparro | 9035667 | pipedu26@javerianacali.edu.co | pipedu26 |
-| Marian Guzman Agudelo |  | marianaguzman31@javerianacali.edu.co | Mariana-Guzman |
-| Yuliana Hincapie Duarte |  | 1107851388@javerianacali.edu.co |  |
+| Marian Guzman Agudelo | 9039850 | marianaguzman31@javerianacali.edu.co | Mariana-Guzman |
+| Yuliana Hincapie Duarte | 9036860 | 1107851388@javerianacali.edu.co | Yulekonk |
 
 ## Funcionalidades Principales
 

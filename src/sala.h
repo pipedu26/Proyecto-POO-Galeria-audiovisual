@@ -3,29 +3,30 @@
 
 #include <string>
 #include <vector>
+#include "Exposicion.h"
 using namespace std;
 
 class Sala
 {
-    public:
-        Sala(std::string nombre, std::string tipoExposicion,int filas, int columnas, double precioIngreso);
-
-        int calcularCapacidad();
-        int calcularOcupacion();
-        int calcularPosicionesDisponibles();
-
-
     private:
         string nombre;
         string tipoExposicion;
         int filas;
         int columnas;
         double precioIngreso;
-
-        vector <Exposicion*> posiciones;
+        string estadoSala;
         int totalIngresos;
         double totalRecaudo;
-        void actualizarEstado();    
+        void actualizarEstado();  
+        vector <Exposicion*> posiciones;
+    
+    public:
+        Sala(string nombre, string tipoExposicion,int filas, int columnas, double precioIngreso);
+
+        int calcularCapacidad();
+        int calcularOcupacion();
+        int calcularPosicionesDisponibles();
+ 
 
 };
 

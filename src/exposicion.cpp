@@ -1,9 +1,10 @@
 
 #include "Exposicion.h"
+using namespace std;
 
-Exposicion::Exposicion(std::string codigo, std::string nombre,
-                       std::string autor, std::string tipo,
-                       std::string descripcion)
+Exposicion::Exposicion(string codigo, string nombre,
+                       string autor, string tipo,
+                       string descripcion)
 {
     this->codigo = codigo;
     this->nombre = nombre;
@@ -12,28 +13,27 @@ Exposicion::Exposicion(std::string codigo, std::string nombre,
     this->descripcion = descripcion;
 }
 
-std::string Exposicion::getCodigo()
+string Exposicion::getCodigo()
 {
     return codigo;
 }
 
-std::string Exposicion::getNombre()
+string Exposicion::getNombre()
 {
     return nombre;
 }
 
-std::string Exposicion::getAutor()
+string Exposicion::getAutor()
 {
     return autor;
 }
 
-std::string Exposicion::getTipo()
+string Exposicion::getTipo()
 {
     return tipo;
 }
 
-std::string Exposicion::getDescripcion()
+string Exposicion::getDescripcion()
 {
     return descripcion;
 }
-

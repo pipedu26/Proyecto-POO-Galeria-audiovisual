@@ -3,26 +3,27 @@
 #define EXPOSICION_H
 
 #include <string>
+using namespace std;
 
 class Exposicion
 {
 private:
-    std::string codigo;
-    std::string nombre;
-    std::string autor;
-    std::string tipo;
-    std::string descripcion;
+    string codigo;
+    string nombre;
+    string autor;
+    string tipo;
+    string descripcion;
 
 public:
-    Exposicion(std::string codigo, std::string nombre,
-               std::string autor, std::string tipo,
-               std::string descripcion);
+    Exposicion(string codigo, string nombre,
+               string autor, string tipo,
+               string descripcion);
 
-    std::string getCodigo();
-    std::string getNombre();
-    std::string getAutor();
-    std::string getTipo();
-    std::string getDescripcion();
+    string getCodigo();
+    string getNombre();
+    string getAutor();
+    string getTipo();
+    string getDescripcion();
 };
 
 #endif // EXPOSICION_H

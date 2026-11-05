@@ -1,6 +1,6 @@
 # Proyecto-POO Galeria de producciones audiovisuales e interactivas
 
-##Descripción del Proyecto
+## Descripción del Proyecto
 Este proyecto es un sistema de administración desarrollado en C++ para una organización cultural que gestiona una galería de producciones audiovisuales e interactivas. El sistema permite controlar la distribución de exposiciones (realidad virtual, cortometrajes, videojuegos, etc.) en diferentes salas, administrar el ingreso de visitantes, y llevar un registro detallado de los ingresos y recaudos financieros.
 
 ## Integrantes del grupo
@@ -10,6 +10,10 @@ Este proyecto es un sistema de administración desarrollado en C++ para una orga
 | Juan Felipe Duran Chaparro | 9035667 | pipedu26@javerianacali.edu.co | pipedu26 |
 | Marian Guzman Agudelo | 9039850 | marianaguzman31@javerianacali.edu.co | Mariana-Guzman |
 | Yuliana Hincapie Duarte | 9036860 | 1107851388@javerianacali.edu.co | Yulekonk |
+
+## Diagrama UML
+
+https://drive.google.com/file/d/1n6qp4nFqXjT7UC1Eewqk-bbaWzMBV6g9/view?usp=sharing
 
 ## Funcionalidades Principales
 

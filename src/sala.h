@@ -18,16 +18,22 @@ class Sala
         int totalIngresos;
         double totalRecaudo;
         void actualizarEstado();  
-        vector <Exposicion*> posiciones;
+        vector <Exposicion*> matrizExposiciones;
     
     public:
-        Sala(string nombre, string tipoExposicion,int filas, int columnas, double precioIngreso);
+        Sala(string nombre, string tipoExposicion, int filas, int columnas, double precioIngreso);
 
-        int calcularCapacidad();
-        int calcularOcupacion();
-        int calcularPosicionesDisponibles();
- 
-
+        bool instalarExposicion(Exposicion expo, int fila, int columna); 
+        void actualizarEstado();
+        bool retirarExpoPorCodigo(string codigo);
+        bool buscarExposicion(string codigo);
+        void registrarVisita();
+        string getEstado();
+        string getTipoExposicion();
+        double getPrecioIngreso();
+        int getIngresosRecibidos();
+        double getDineroRecaudado();
+        
 };
 
 #endif // SALA_H

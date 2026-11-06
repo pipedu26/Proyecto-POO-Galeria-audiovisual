@@ -11,9 +11,6 @@ Este proyecto es un sistema de administración desarrollado en C++ para una orga
 | Marian Guzman Agudelo | 9039850 | marianaguzman31@javerianacali.edu.co | Mariana-Guzman |
 | Yuliana Hincapie Duarte | 9036860 | 1107851388@javerianacali.edu.co | Yulekonk |
 
-## Diagrama UML
-
-https://drive.google.com/file/d/1n6qp4nFqXjT7UC1Eewqk-bbaWzMBV6g9/view?usp=sharing
 
 ## Funcionalidades Principales
 
